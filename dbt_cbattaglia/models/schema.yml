@@ -1,0 +1,14 @@
+
+version: 2
+
+models:
+    - name: bdt_test
+      description: "Wallet transactions"
+      columns:
+          - name: transaction_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+
